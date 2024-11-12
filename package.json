@@ -1,0 +1,60 @@
+{
+  "name": "mycrudapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm ci && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "\"# QuickCRUD\" \r # QuickCRUD # QuickCRUD",
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.1",
+    "@mui/material": "^6.1.1",
+    "@mui/system": "^6.1.1",
+    "@mui/x-date-pickers": "^7.17.0",
+    "@prisma/client": "^5.20.0",
+    "@sendgrid/mail": "^8.1.4",
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.4.0",
+    "cors": "^2.8.5",
+    "date": "^2.0.5",
+    "date-fns": "^3.6.0",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "fns": "^1.0.0",
+    "framer-motion": "^11.5.6",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "lodash.debounce": "^4.0.8",
+    "mongodb": "^6.8.0",
+    "next": "^14.2.11",
+    "next-cloudinary": "^6.11.0",
+    "nodemailer": "^6.9.16",
+    "prisma": "^5.20.0",
+    "react": "^18.3.1",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^18.3.1",
+    "rimraf": "^6.0.1",
+    "uuid": "^11.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
